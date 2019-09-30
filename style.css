@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+
+}
+
+html{
+  /* background-color: red; */
+  scroll-behavior: smooth;
+  /* this is used to make a smooth scroll */
+}
+body{
+  font-family: "Calibri";
+}
+
+#vert-nav{
+  background-color: #3d4f5d;
+  position: fixed;
+  width: 24%;
+  height: 100vh;
+}
+
+
+header h1{
+  position: absolute;
+  left: 43%;
+  top: 39%;
+  transform: translate(10%,-50%);
+  font-size: 2.7vw;
+  color: #ffffff;
+}
+
+header p{
+  position: absolute;
+  left: 21%;
+  top: 48%;
+  transform: translate(-12%,-32%);
+  font-size: 2vw;
+  color: #a1b9c7;
+
+}
+
+header .home{
+  position: absolute;
+  left: 35%;
+  top: 61%;
+  transform: translate(20%,-50%);
+  font-size: 1.3vw;
+  border-style: solid;
+  border-color: #a1b9c7;
+  border-width: 2px;
+  padding: 4px;
+  padding-right: 9px;
+  padding-left: 9px;
+  text-decoration: none;
+  color: white;
+
+}
+
+header .proj{
+  position: absolute;
+  left: 35%;
+  top: 61%;
+  transform: translate(91%,-50%);
+  font-size: 1.3vw;
+  border-style: solid;
+  border-color: #a1b9c7;
+  border-width: 2px;
+  padding: 4px;
+  padding-right: 9px;
+  padding-left: 9px;
+  text-decoration: none;
+  color: white;
+
+}
+#para{
+  width: 80%;
+  float: right;
+  position: relative;
+  left: 8em;
+  top: 5em;
+}
+
+#para div h5{
+  font-size: 17px;
+  font-weight: 100;
+  color: lightgray;
+}
+
+hr{
+  border-top: lightgray;
+  border-width: thin;
+  width: 80%;
+}
+
+.para-text{
+  position: relative;
+  top: 2em;
+}
+.para-text h2{
+  font-size: 2.5em;
+
+}
+.under-title{
+  width: 83%;
+  color: #a59a9a;
+  margin-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+a[target="css"]{
+  text-decoration: none;
+  color: white;
+  background-color: #5aba59;
+  padding: 1px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+a[target="js"]{
+  text-decoration: none;
+  color: white;
+  background-color: #4d85d1;
+  padding: 1px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+a[target="js-red"]{
+  text-decoration: none;
+  color: white;
+  background-color: #df2d4f;
+  padding: 1px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+a[target="places"]{
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 1px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.under-title + p{
+  position: relative;
+  top: 18px;
+  width: 82%;
+}
+
+.para-img img{
+  position: relative;
+  top: -127px;
+  left: 47em;
+  border-radius: 26px;
+}
+
+.para-img #last-avatar{
+  position: relative;
+  top: -292px;
+  left: 47em;
+  border-radius: 26px;
+}
+
+.section-img{
+  height: 85vh;
+}
+
+._img{
+  margin: 0 165px;
+  position: relative;
+  right: 166px;
+}
+
+.sec-img{
+  float: right;
+
+}
+
+
+._img img{
+  width: 49%;
+  height: 36vh;
+  margin: 1px;
+}
+
+
+
+@media (max-width:800px) {
+  #vert-nav{
+    background-color: #3d4f5d;
+    position: fixed;
+    width: 24%;
+    height: 100vh;
+    visibility: hidden;
+  }
+  #para{
+    width: 113vw;
+    float: right;
+    position: relative;
+    left: 8em;
+    top: 5em;
+  }
+
+  .para-img img {
+      position: relative;
+      top: -175px;
+      left: 21em;
+      border-radius: 26px;
+  }
+
+}
