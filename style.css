@@ -157,14 +157,14 @@ a[target="places"]{
 
 .para-img img{
   position: relative;
-  top: -127px;
+  top: -162px;
   left: 47em;
   border-radius: 26px;
 }
 
 .para-img #last-avatar{
   position: relative;
-  top: -292px;
+  top: -301px;
   left: 47em;
   border-radius: 26px;
 }
@@ -195,25 +195,25 @@ a[target="places"]{
 
 @media (max-width:800px) {
   #vert-nav{
-    background-color: #3d4f5d;
-    position: fixed;
-    width: 24%;
-    height: 100vh;
-    visibility: hidden;
+   background-color: #3d4f5d;
+   position: fixed;
+   width: 24%;
+   height: 100vh;
+   visibility: hidden;
   }
   #para{
-    width: 113vw;
-    float: right;
-    position: relative;
-    left: 8em;
-    top: 5em;
+   width: 113vw;
+   float: right;
+   position: relative;
+   left: 8em;
+   top: 5em;
   }
 
   .para-img img {
-      position: relative;
-      top: -175px;
-      left: 21em;
-      border-radius: 26px;
+   position: relative;
+   top: -175px;
+   left: 21em;
+   border-radius: 26px;
   }
 
 }
