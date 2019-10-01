@@ -78,10 +78,9 @@ header .proj{
 
 }
 #para{
-  width: 80%;
-  float: right;
-  position: relative;
-  left: 8em;
+  width: 73%;
+  position: absolute;
+  left: 20em;
   top: 5em;
 }
 
@@ -174,9 +173,14 @@ a[target="places"]{
 }
 
 ._img{
-  margin: 0 165px;
+  margin: 0 110px;
   position: relative;
-  right: 166px;
+  right: 80px;
+  display: inline-block;
+}
+
+.fir-img{
+  float: left;
 }
 
 .sec-img{
@@ -188,7 +192,35 @@ a[target="places"]{
 ._img img{
   width: 49%;
   height: 36vh;
-  margin: 1px;
+  margin: 0px;
+  right: -47px;
+  position: relative;
+  top: 2em;
+
+}
+
+footer{
+  position: relative;
+  right: 2em;
+  height: 30vh;
+
+}
+
+footer div ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer div ul li {
+display: inline-block;
+margin: 10px;
+}
+
+footer div ul li a {
+display: inline-block;
+margin: 10px;
+color: #726f6f;
+text-decoration: none;
 }
 
 
